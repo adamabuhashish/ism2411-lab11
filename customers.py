@@ -1,5 +1,24 @@
 # ISM2411 Lab 11 — Customer Dictionary & Lookup
 # Name: Adam Abuhashish
+#
+# REFLECTION
+#
+# 1. .get() vs bracket notation:
+#    I'd use .get() when a field might honestly be missing, like a customer
+#    who never gave us an email, because it just hands back a default and the
+#    program keeps running. I'd use brackets when the field has to be there,
+#    like a customer's name, because if it's missing I want it to crash loud
+#    so I know the data is broken. My rule of thumb is optional means .get(),
+#    required means brackets.
+#
+# 2. Summary dictionary vs Excel:
+#    This is basically a pivot table or SUMIF in Excel, where you group rows by
+#    region and add up the amounts. The Python version is better for big
+#    datasets because it doesn't slow down or freeze with millions of rows and
+#    you can rerun the same script on next month's data in one second. In Excel
+#    I'd be rebuilding it by hand every time.
+#
+# AI disclosure: Claude helped write the code and phrase these answers.
 
 
 # ----- Exercise 1: One customer -----
