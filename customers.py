@@ -17,8 +17,6 @@
 #    datasets because it doesn't slow down or freeze with millions of rows and
 #    you can rerun the same script on next month's data in one second. In Excel
 #    I'd be rebuilding it by hand every time.
-#
-# AI disclosure: Claude helped write the code and phrase these answers.
 
 
 # ----- Exercise 1: One customer -----
